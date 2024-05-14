@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+   <html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!--=============== FAVICON ===============-->
+      <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+
+      <!--=============== REMIXICONS ===============-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css">
+
+      <!--=============== SWIPER CSS ===============-->
+      <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+      <!--=============== CSS ===============-->
+      <link rel="stylesheet" href="assets/css/styles.css">
+
+      <title>Responsive book website - Bedimcode</title>
+   </head>
+   <body>
+      <!--==================== HEADER ====================-->
+      <header class="header" id="header">
+         <nav class='nav container'>
+            <a herf="#" class="nav__logo">
+               <i class="ri-book-open-fill"></i>يا طالب العلم<br>
+               o seaker of knowladge
+            </a>
+
+            <div class="nav__menu">
+               <ul class="nav__list">
+                  <li class="nav__item">
+                     <a href="#home" class="nav__link active-link">
+                        <i class="ri-home-line"></i>
+
+                        <span>Home</span>
+                     </a>
+
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="Featured.html" class="nav__link">
+                        <i class="ri-book-3-line"></i>
+                        <span>Featured</span>
+                     </a>
+
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="Discount.html" class="nav__link">
+                        <i class="ri-price-tag-3-line"></i>
+                        <span>Discount</span>
+                     </a>
+
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="New Books.html" class="nav__link">
+                        <i class="ri-bookmark-line"></i>
+                        <span>New Books</span>
+                     </a>
+
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="testimonial.html" class="nav__link">
+                        <i class="ri-message-3-line"></i>
+                        <span>testimonial</span>
+                     </a>
+
+                  </li>
+
+
+               </ul>
+            </div>
+
+            <div class="nav__actions">
+               <!--search button-->
+               <i class="ri-search-line search-button" id="search-button"></i>
+            
+               <!--login button-->
+               <i class="ri-user-line login-button" id="login-button"></i>
+            
+               <!--theme button-->
+               <button class="theme-btn" id="theme-button">
+                  <i class="ri-moon-line"></i>
+               </button>
+            </div>
+ 
+         </nav>
+         
+      </header>
+
+      <!--==================== SEARCH ====================-->
+      <div class="search" id="search-content">
+         <form action="" class="search__form">
+            <i class="ri-search-line search__icon"></i>
+            <input type="search" placeholder="what are you looking for?" class="search__input">
+
+         </form>
+
+         <i class="ri-close-line search__close" id="search-close"></i>
+      </div>
+
+      <!--==================== LOGIN ====================-->
+      <div class="login grid" id="login-content">
+         <form action="" class="loging__form grid">
+            <h3 class="login__title">Log In</h3>
+
+            <div class="login__group grid">
+               <div>
+                  <label for="login-email" class="login__label">Email</label>
+                  <input type="email" placeholder="write your email" id="login-email" class="login__input">
+               </div>
+               <div>
+                  <label for="login__pass" class="login__label">Password</label>
+                  <input type="password" placeholder="Enter your password" id="" class="login__pass">
+               </div>
+            </div>
+
+            <div>
+               <span class="login__signup">
+                  you do not have and account? <a href="#">Sign up</a>
+               </span>
+
+               <a href="#" class="login__forgot"> 
+                  you frogot your password
+               </a>
+
+               <button type="submit" class="login__button button">Log In</button>
+            </div>
+         </form>
+         <i class="ri-close-line login__close" id="login-close"></i>
+      </div>
+
+       <!--==================== NEW BOOKS ====================-->
+       <section class="new section" id="new">
+        <h2 class="section__title">
+           New Books
+        </h2>
+        <div class="new__container container">
+           <div class="new__swiper swiper">
+              <div class="swiper-wrapper ">
+                 <a href="#" class="new__card swiper-slide">
+                    <img src="book-1.png" alt="image" class="new__img">
+                    <div>
+                       <h2 class="new__title">book1</h2>
+                       <div class="new__prices">
+                          <span class="new__discount">AED 34.99</span>
+                          <span class="new__price">49.99</span>
+                       </div>
+                       <div class="new__stars">
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-half-fill"></i>
+                       </div>
+                    </div>
+                 </a>
+
+                 <a href="#" class="new__card swiper-slide">
+                    <img src="book-2.png" alt="image" class="new__img">
+                    <div>
+                       <h2 class="new__title">book2</h2>
+                       <div class="new__prices">
+                          <span class="new__discount">AED 34.99</span>
+                          <span class="new__price">49.99</span>
+                       </div>
+                       <div class="new__stars">
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-half-fill"></i>
+                       </div>
+                    </div>
+                 </a>
+
+                 <a href="#" class="new__card swiper-slide">
+                    <img src="book-3.png" alt="image" class="new__img">
+                    <div>
+                       <h2 class="new__title">book3</h2>
+                       <div class="new__prices">
+                          <span class="new__discount">AED 34.99</span>
+                          <span class="new__price">49.99</span>
+                       </div>
+                       <div class="new__stars">
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-half-fill"></i>
+                       </div>
+                    </div>
+                 </a>
+
+                 <a href="#" class="new__card swiper-slide">
+                    <img src="book-4.png" alt="image" class="new__img">
+                    <div>
+                       <h2 class="new__title">book3</h2>
+                       <div class="new__prices">
+                          <span class="new__discount">AED 34.99</span>
+                          <span class="new__price">49.99</span>
+                       </div>
+                       <div class="new__stars">
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-half-fill"></i>
+                       </div>
+                    </div>
+                 </a>
+
+                 <a href="#" class="new__card swiper-slide">
+                    <img src="book-5.png" alt="image" class="new__img">
+                    <div>
+                       <h2 class="new__title">book4</h2>
+                       <div class="new__prices">
+                          <span class="new__discount">AED 34.99</span>
+                          <span class="new__price">49.99</span>
+                       </div>
+                       <div class="new__stars">
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-half-fill"></i>
+                       </div>
+                    </div>
+                 </a>
+
+                 <a href="#" class="new__card swiper-slide">
+                    <img src="book-6.png" alt="image" class="new__img">
+                    <div>
+                       <h2 class="new__title">book6</h2>
+                       <div class="new__prices">
+                          <span class="new__discount">AED 34.99</span>
+                          <span class="new__price">49.99</span>
+                       </div>
+                       <div class="new__stars">
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-half-fill"></i>
+                       </div>
+                    </div>
+                 </a>
+
+                 <a href="#" class="new__card swiper-slide">
+                    <img src="book-7.png" alt="image" class="new__img">
+                    <div>
+                       <h2 class="new__title">book7</h2>
+                       <div class="new__prices">
+                          <span class="new__discount">AED 34.99</span>
+                          <span class="new__price">49.99</span>
+                       </div>
+                       <div class="new__stars">
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-half-fill"></i>
+                       </div>
+                    </div>
+                 </a>
+
+                 <a href="#" class="new__card swiper-slide">
+                    <img src="book-8.png" alt="image" class="new__img">
+                    <div>
+                       <h2 class="new__title">book8</h2>
+                       <div class="new__prices">
+                          <span class="new__discount">AED 34.99</span>
+                          <span class="new__price">49.99</span>
+                       </div>
+                       <div class="new__stars">
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-half-fill"></i>
+                       </div>
+                    </div>
+                 </a>
+
+                 <a href="#" class="new__card swiper-slide">
+                    <img src="book-9.png" alt="image" class="new__img">
+                    <div>
+                       <h2 class="new__title">book9</h2>
+                       <div class="new__prices">
+                          <span class="new__discount">AED 34.99</span>
+                          <span class="new__price">49.99</span>
+                       </div>
+                       <div class="new__stars">
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-half-fill"></i>
+                       </div>
+                    </div>
+                 </a>
+
+                 <a href="#" class="new__card swiper-slide">
+                    <img src="book-10.png" alt="image" class="new__img">
+                    <div>
+                       <h2 class="new__title">book10</h2>
+                       <div class="new__prices">
+                          <span class="new__discount">AED 34.99</span>
+                          <span class="new__price">49.99</span>
+                       </div>
+                       <div class="new__stars">
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-half-fill"></i>
+                       </div>
+                    </div>
+                 </a>
+              </div>
+           </div>
+           <div class="new__swiper swiper">
+              <div class="swiper-wrapper ">
+                 <a href="#" class="new__card swiper-slide">
+                    <img src="book-10.png" alt="image" class="new__img">
+                    <div>
+                       <h2 class="new__title">book11</h2>
+                       <div class="new__prices">
+                          <span class="new__discount">AED 34.99</span>
+                          <span class="new__price">49.99</span>
+                       </div>
+                       <div class="new__stars">
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-half-fill"></i>
+                       </div>
+                    </div>
+                 </a>
+
+                 <a href="#" class="new__card swiper-slide">
+                    <img src="book-9.png" alt="image" class="new__img">
+                    <div>
+                       <h2 class="new__title">book12</h2>
+                       <div class="new__prices">
+                          <span class="new__discount">AED 34.99</span>
+                          <span class="new__price">49.99</span>
+                       </div>
+                       <div class="new__stars">
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-half-fill"></i>
+                       </div>
+                    </div>
+                 </a>
+
+                 <a href="#" class="new__card swiper-slide">
+                    <img src="book-8.png" alt="image" class="new__img">
+                    <div>
+                       <h2 class="new__title">book13</h2>
+                       <div class="new__prices">
+                          <span class="new__discount">AED 34.99</span>
+                          <span class="new__price">49.99</span>
+                       </div>
+                       <div class="new__stars">
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-half-fill"></i>
+                       </div>
+                    </div>
+                 </a>
+
+                 <a href="#" class="new__card swiper-slide">
+                    <img src="book-7.png" alt="image" class="new__img">
+                    <div>
+                       <h2 class="new__title">book14</h2>
+                       <div class="new__prices">
+                          <span class="new__discount">AED 34.99</span>
+                          <span class="new__price">49.99</span>
+                       </div>
+                       <div class="new__stars">
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-half-fill"></i>
+                       </div>
+                    </div>
+                 </a>
+
+                 <a href="#" class="new__card swiper-slide">
+                    <img src="book-6.png" alt="image" class="new__img">
+                    <div>
+                       <h2 class="new__title">book15</h2>
+                       <div class="new__prices">
+                          <span class="new__discount">AED 34.99</span>
+                          <span class="new__price">49.99</span>
+                       </div>
+                       <div class="new__stars">
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-half-fill"></i>
+                       </div>
+                    </div>
+                 </a>
+
+                 <a href="#" class="new__card swiper-slide">
+                    <img src="book-5.png" alt="image" class="new__img">
+                    <div>
+                       <h2 class="new__title">book16</h2>
+                       <div class="new__prices">
+                          <span class="new__discount">AED 34.99</span>
+                          <span class="new__price">49.99</span>
+                       </div>
+                       <div class="new__stars">
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-half-fill"></i>
+                       </div>
+                    </div>
+                 </a>
+
+                 <a href="#" class="new__card swiper-slide">
+                    <img src="book-4.png" alt="image" class="new__img">
+                    <div>
+                       <h2 class="new__title">book17</h2>
+                       <div class="new__prices">
+                          <span class="new__discount">AED 34.99</span>
+                          <span class="new__price">49.99</span>
+                       </div>
+                       <div class="new__stars">
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-half-fill"></i>
+                       </div>
+                    </div>
+                 </a>
+
+                 <a href="#" class="new__card swiper-slide">
+                    <img src="book-3.png" alt="image" class="new__img">
+                    <div>
+                       <h2 class="new__title">book18</h2>
+                       <div class="new__prices">
+                          <span class="new__discount">AED 34.99</span>
+                          <span class="new__price">49.99</span>
+                       </div>
+                       <div class="new__stars">
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-half-fill"></i>
+                       </div>
+                    </div>
+                 </a>
+
+                 <a href="#" class="new__card swiper-slide">
+                    <img src="book-2.png" alt="image" class="new__img">
+                    <div>
+                       <h2 class="new__title">book19</h2>
+                       <div class="new__prices">
+                          <span class="new__discount">AED 34.99</span>
+                          <span class="new__price">49.99</span>
+                       </div>
+                       <div class="new__stars">
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-half-fill"></i>
+                       </div>
+                    </div>
+                 </a>
+
+                 <a href="#" class="new__card swiper-slide">
+                    <img src="book-1.png" alt="image" class="new__img">
+                    <div>
+                       <h2 class="new__title">book19</h2>
+                       <div class="new__prices">
+                          <span class="new__discount">AED 34.99</span>
+                          <span class="new__price">49.99</span>
+                       </div>
+                       <div class="new__stars">
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-half-fill"></i>
+                       </div>
+                    </div>
+                 </a>
+              </div>
+           </div>
+        </div>
+     </section>
+
+
+
+            <!--==================== FOOTER ====================-->
+            <footer class="footer">
+                <div class="footer__container container grid">
+                   <div>
+                      <a href="#" class="footer__logo">
+                         <i class="ri-book-open-fill"></i>يا طالب العلم<br>
+                         o seaker of knowladge
+                      </a>
+                      <p class="footer__description" >
+                         Find and explore the best <br>
+                         eBooks from all your <br>
+                         favorite writers.
+                      </p>
+                   </div>
+                   <div class="footer__data grid">
+                      <div>
+                         <h3 class="footer__title">About</h3>
+                         <ul class="footer__links">
+       
+                            <li><a href="#" class="footer__link">Awards</a>
+                            </li>
+       
+                            <li><a href="#" class="footer__link">FAQs</a>
+                            </li>
+       
+                            <li><a href="#" class="footer__link">Privicy Policy</a>
+                            </li>
+       
+                            <li><a href="#" class="footer__link">Terms of Service</a>
+                            </li>
+       
+                         </ul>
+                      </div>
+       
+                      <div>
+                         <h3 class="footer__title">Company</h3>
+                         <ul class="footer__links">
+                            
+                            <li><a href="#" class="footer__link">Blogs</a>
+                            </li>
+       
+                            <li><a href="#" class="footer__link">Community</a>
+                            </li>
+       
+                            <li><a href="#" class="footer__link">Our Team</a>
+                            </li>
+       
+                            <li><a href="#" class="footer__link">Help Center</a>
+                            </li>
+       
+                         </ul>
+                      </div>
+       
+                      <div>
+                         <h3 class="footer__title">Contact</h3>
+                         <ul class="footer__links">
+                            
+                            <li><address class="footer__info">
+                                Muhammad Mohsin<br>
+                                L4 CC
+                            </address>
+                            </li>
+                            
+                            <li><address class="footer__info">
+                                o-seaker-of0knowladge@email.com <br>
+                                0581790593
+                            </li>
+       
+                         </ul>
+                      </div>
+       
+                      <div>
+                         <h3 class="footer__title">Social</h3>
+                         <div class="footer__social">
+                            <a href=" https://www.facebook.com/" target="_blank" class="footer__social-link">
+                               <i class="ri-facebook-circle-line"></i>
+                            </a>
+       
+                            <a href=" https://www.instagram.com/" target="_blank" class="footer__social-link">
+                               <i class="ri-instagram-line"></i>
+                            </a>
+       
+                            <a href=" https://twitter.com/" target="_blank" class="footer__social-link">
+                               <i class="ri-twitter-x-line"></i>
+                            </a>
+                         </div>
+                      </div>
+       
+                      
+                   </div>
+                </div>
+                <span class="footer__copy">
+                    &#169; All Rights Reserved <br>
+                    يا طالب العلم<br>
+                          o seaker of knowladge                </span>
+             </footer>
+       
+             <!--========== SCROLL UP ==========-->
+             <a herf="#" class="scrollup" id="scroll-up">
+                <i class="ri-arrow-up-line"></i>
+             </a>
+       
+             <!--=============== SCROLLREVEAL ===============-->
+             <script src="assets/js/scrollreveal.min.js"></script>
+       
+             <!--=============== SWIPER JS ===============-->
+             <script src="assets/js/swiper-bundle.min.js"></script>
+       
+             <!--=============== MAIN JS ===============-->
+             <script src="assets/js/main.js"></script>
+          </body>
+       </html>
+
+       <!--
+
+- `<!DOCTYPE html>`: Declares the document type and version of HTML.
+- `<html lang="en">`: The root element of the HTML document, specifying English as the primary language.
+- `<head>`: Contains meta information about the document, links to stylesheets, and other resources.
+  - `<meta charset="UTF-8">`: Sets the character encoding to UTF-8, which includes most characters from all languages.
+  - `<meta name="viewport" content="width=device-width, initial-scale=1.0">`: Ensures the site is mobile-responsive.
+  - `<link rel="shortcut icon" href="favicon.png" type="image/x-icon">`: Links to the favicon, the small icon displayed in the tab.
+  - `<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css">`: External link to the Remixicon library for icons.
+  - `<link rel="stylesheet" href="assets/css/swiper-bundle.min.css">`: External stylesheet for Swiper, used for sliding effects.
+  - `<link rel="stylesheet" href="assets/css/styles.css">`: Link to the site's main stylesheet.
+  - `<title>Responsive book website - Bedimcode</title>`: The title of the document, shown in the browser tab.
+- `<body>`: Contains all the content of the website.
+  - `<header class="header" id="header">`: The top section of the website, typically containing the navigation bar.
+    - `<nav class='nav container'>`: The navigation bar container.
+      - `<a href="#" class="nav__logo">`: The website's logo or name, clickable.
+      - `<div class="nav__menu">`: Container for the navigation menu.
+        - `<ul class="nav__list">`: Unordered list for navigation links.
+          - `<li class="nav__item"><a href="#home" class="nav__link active-link">`: List items for each navigation link.
+      - `<div class="nav__actions">`: Container for actions like search, login, and theme change buttons.
+  - `<div class="search" id="search-content">`: Hidden search bar, shown when the search icon is clicked.
+  - `<div class="login grid" id="login-content">`: Hidden login form, shown when the login icon is clicked.
+  - `<section class="new section" id="new">`: Section dedicated to showcasing new books.
+- `<footer class="footer">`: The footer section of the website, typically containing copyright information, contact info, and links.
+  - Contains structured information like about the company, contact details, and social media links.
+- `<a href="#" class="scrollup" id="scroll-up">`: A button to scroll back to the top of the page.
+- External JavaScript files for functionality:
+  - ScrollReveal for scroll animations.
+  - Swiper JS for the sliding effects in the new books section.
+  - Main JavaScript file for the site's primary interactivity..-->

@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+   <html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!--=============== FAVICON ===============-->
+      <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+
+      <!--=============== REMIXICONS ===============-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css">
+
+      <!--=============== SWIPER CSS ===============-->
+      <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+      <!--=============== CSS ===============-->
+      <link rel="stylesheet" href="assets/css/styles.css">
+
+      <title>Responsive book website - Bedimcode</title>
+   </head>
+   <body>
+      <!--==================== HEADER ====================-->
+      <header class="header" id="header">
+         <nav class='nav container'>
+            <a herf="#" class="nav__logo">
+               <i class="ri-book-open-fill"></i>يا طالب العلم<br>
+               o seaker of knowladge
+            </a>
+
+            <div class="nav__menu">
+               <ul class="nav__list">
+                  <li class="nav__item">
+                     <a href="#home" class="nav__link active-link">
+                        <i class="ri-home-line"></i>
+
+                        <span>Home</span>
+                     </a>
+
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="Featured.html" class="nav__link">
+                        <i class="ri-book-3-line"></i>
+                        <span>Featured</span>
+                     </a>
+
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="Discount.html" class="nav__link">
+                        <i class="ri-price-tag-3-line"></i>
+                        <span>Discount</span>
+                     </a>
+
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="New Books.html" class="nav__link">
+                        <i class="ri-bookmark-line"></i>
+                        <span>New Books</span>
+                     </a>
+
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="testimonial.html" class="nav__link">
+                        <i class="ri-message-3-line"></i>
+                        <span>testimonial</span>
+                     </a>
+
+                  </li>
+
+
+               </ul>
+            </div>
+
+            <div class="nav__actions">
+               <!--search button-->
+               <i class="ri-search-line search-button" id="search-button"></i>
+            
+               <!--login button-->
+               <i class="ri-user-line login-button" id="login-button"></i>
+            
+               <!--theme button-->
+               <button class="theme-btn" id="theme-button">
+                  <i class="ri-moon-line"></i>
+               </button>
+            </div>
+ 
+         </nav>
+         
+      </header>
+
+      <!--==================== SEARCH ====================-->
+      <div class="search" id="search-content">
+         <form action="" class="search__form">
+            <i class="ri-search-line search__icon"></i>
+            <input type="search" placeholder="what are you looking for?" class="search__input">
+
+         </form>
+
+         <i class="ri-close-line search__close" id="search-close"></i>
+      </div>
+
+      <!--==================== LOGIN ====================-->
+      <div class="login grid" id="login-content">
+         <form action="" class="loging__form grid">
+            <h3 class="login__title">Log In</h3>
+
+            <div class="login__group grid">
+               <div>
+                  <label for="login-email" class="login__label">Email</label>
+                  <input type="email" placeholder="write your email" id="login-email" class="login__input">
+               </div>
+               <div>
+                  <label for="login__pass" class="login__label">Password</label>
+                  <input type="password" placeholder="Enter your password" id="" class="login__pass">
+               </div>
+            </div>
+
+            <div>
+               <span class="login__signup">
+                  you do not have and account? <a href="#">Sign up</a>
+               </span>
+
+               <a href="#" class="login__forgot"> 
+                  you frogot your password
+               </a>
+
+               <button type="submit" class="login__button button">Log In</button>
+            </div>
+         </form>
+         <i class="ri-close-line login__close" id="login-close"></i>
+      </div>
+       <!--==================== TESTIMONIAL ====================-->
+       <section class="testimonial section" id="testimonial">
+        <h2 class="section__title">
+           Customer Opnions
+        </h2>
+        <div class="testimonial__container container">
+           <div class="testimonial__swiper swiper">
+              <div class="swiper-wrapper">
+                 <article class="testimonial__card swiper-slide">
+                    <img src="testimonial-perfil-1.png" alt="image" class="testimonial__img">
+                    <h2 class="testimonial__title">Rial Loz</h2>
+                    <p class="testimonial__description">The best website to buy books, the purchase 
+                       is very easy to make and has great discounts.</p>
+                       <div class="testimonial__stard"></div>
+                       <i class="ri-star-fill"></i>
+                       <i class="ri-star-fill"></i>
+                       <i class="ri-star-fill"></i>
+                       <i class="ri-star-fill"></i>
+                       <i class="ri-star-half-fill"></i>
+                 </article>
+
+                 <article class="testimonial__card swiper-slide">
+                    <img src="testimonial-perfil-2.png" alt="image" class="testimonial__img">
+                    <h2 class="testimonial__title">Rial Loz</h2>
+                    <p class="testimonial__description">The best website to buy books, the purchase 
+                       is very easy to make and has great discounts.</p>
+                       <div class="testimonial__stard"></div>
+                       <i class="ri-star-fill"></i>
+                       <i class="ri-star-fill"></i>
+                       <i class="ri-star-fill"></i>
+                       <i class="ri-star-fill"></i>
+                       <i class="ri-star-half-fill"></i>
+                 </article>
+
+                 <article class="testimonial__card swiper-slide">
+                    <img src="testimonial-perfil-3.png" alt="image" class="testimonial__img">
+                    <h2 class="testimonial__title">Rial Loz</h2>
+                    <p class="testimonial__description">The best website to buy books, the purchase 
+                       is very easy to make and has great discounts.</p>
+                       <div class="testimonial__stard"></div>
+                       <i class="ri-star-fill"></i>
+                       <i class="ri-star-fill"></i>
+                       <i class="ri-star-fill"></i>
+                       <i class="ri-star-fill"></i>
+                       <i class="ri-star-half-fill"></i>
+                 </article>
+
+                 <article class="testimonial__card swiper-slide">
+                    <img src="testimonial-perfil-4.png" alt="image" class="testimonial__img">
+                    <h2 class="testimonial__title">Rial Loz</h2>
+                    <p class="testimonial__description">The best website to buy books, the purchase 
+                       is very easy to make and has great discounts.</p>
+                       <div class="testimonial__stard"></div>
+                       <i class="ri-star-fill"></i>
+                       <i class="ri-star-fill"></i>
+                       <i class="ri-star-fill"></i>
+                       <i class="ri-star-fill"></i>
+                       <i class="ri-star-half-fill"></i>
+                 </article>
+              </div>
+
+
+           </div>
+        </div>
+     </section>
+  </main>
+            <!--==================== FOOTER ====================-->
+            <footer class="footer">
+                <div class="footer__container container grid">
+                   <div>
+                      <a href="#" class="footer__logo">
+                         <i class="ri-book-open-fill"></i>يا طالب العلم<br>
+                         o seaker of knowladge
+                      </a>
+                      <p class="footer__description" >
+                         Find and explore the best <br>
+                         eBooks from all your <br>
+                         favorite writers.
+                      </p>
+                   </div>
+                   <div class="footer__data grid">
+                      <div>
+                         <h3 class="footer__title">About</h3>
+                         <ul class="footer__links">
+       
+                            <li><a href="#" class="footer__link">Awards</a>
+                            </li>
+       
+                            <li><a href="#" class="footer__link">FAQs</a>
+                            </li>
+       
+                            <li><a href="#" class="footer__link">Privicy Policy</a>
+                            </li>
+       
+                            <li><a href="#" class="footer__link">Terms of Service</a>
+                            </li>
+       
+                         </ul>
+                      </div>
+       
+                      <div>
+                         <h3 class="footer__title">Company</h3>
+                         <ul class="footer__links">
+                            
+                            <li><a href="#" class="footer__link">Blogs</a>
+                            </li>
+       
+                            <li><a href="#" class="footer__link">Community</a>
+                            </li>
+       
+                            <li><a href="#" class="footer__link">Our Team</a>
+                            </li>
+       
+                            <li><a href="#" class="footer__link">Help Center</a>
+                            </li>
+       
+                         </ul>
+                      </div>
+       
+                      <div>
+                         <h3 class="footer__title">Contact</h3>
+                         <ul class="footer__links">
+                            
+                            <li><address class="footer__info">
+                               Muhammad Mohsin<br>
+                               L4 CC
+                            </address>
+                            </li>
+                            
+                            <li><address class="footer__info">
+                               o-seaker-of0knowladge@email.com <br>
+                               0581790593
+                            </address>
+                            </li>
+       
+                         </ul>
+                      </div>
+       
+                      <div>
+                         <h3 class="footer__title">Social</h3>
+                         <div class="footer__social">
+                            <a href=" https://www.facebook.com/" target="_blank" class="footer__social-link">
+                               <i class="ri-facebook-circle-line"></i>
+                            </a>
+       
+                            <a href=" https://www.instagram.com/" target="_blank" class="footer__social-link">
+                               <i class="ri-instagram-line"></i>
+                            </a>
+       
+                            <a href=" https://twitter.com/" target="_blank" class="footer__social-link">
+                               <i class="ri-twitter-x-line"></i>
+                            </a>
+                         </div>
+                      </div>
+       
+                      
+                   </div>
+                </div>
+                <span class="footer__copy">
+                   &#169; All Rights Reserved By Bedimcode
+                </span>
+             </footer>
+       
+             <!--========== SCROLL UP ==========-->
+             <a herf="#" class="scrollup" id="scroll-up">
+                <i class="ri-arrow-up-line"></i>
+             </a>
+       
+             <!--=============== SCROLLREVEAL ===============-->
+             <script src="assets/js/scrollreveal.min.js"></script>
+       
+             <!--=============== SWIPER JS ===============-->
+             <script src="assets/js/swiper-bundle.min.js"></script>
+       
+             <!--=============== MAIN JS ===============-->
+             <script src="assets/js/main.js"></script>
+          </body>
+       </html>
+
+
+       <!--<!DOCTYPE html>: This is the doctype declaration. It's not an HTML tag, but it tells the browser what version of HTML the page is written in. In this case, it's HTML5.
+
+
+
+<html lang="en">: This is the root element of an HTML page. The lang attribute specifies the language of the page, which is English here.
+
+
+
+<head>: This is the head element. It contains meta-information about the HTML document that isn't displayed on the page itself.
+
+
+
+<meta charset="UTF-8">: This defines the character set used in the document, which is UTF-8 here.
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">: This makes the webpage responsive on different devices.
+
+
+
+<link rel="shortcut icon" href="favicon.png" type="image/x-icon">: This sets the favicon for the webpage, which is the small icon you see on the tab in your browser.
+
+
+
+<link rel="stylesheet" href="...">: These lines link to the CSS files that style the webpage.
+
+
+
+<title>Responsive book website - Bedimcode</title>: This sets the title of the webpage, which is displayed on the tab in your browser.
+
+
+
+<body>: This is the body element. It contains all the content that you see on the webpage.
+
+
+
+<header class="header" id="header">: This is the header of the webpage. It usually contains a logo, a navigation bar, etc.
+
+
+
+<nav class='nav container'>: This is the navigation bar. It contains links to different sections of the website.
+
+
+
+<a href="#" class="nav__logo">: This is a link. In this case, it's probably the logo of the website.
+
+
+
+<div class="nav__menu">: This is a container for the navigation menu.
+
+
+
+<ul class="nav__list">: This is an unordered list. It contains list items (<li>), which are the individual menu items.
+
+
+
+<i class="ri-home-line"></i>: This is an icon. The class name probably refers to a specific icon in an icon library.
+
+
+
+<div class="search" id="search-content">: This is a container for the search functionality.
+
+
+
+<form action="" class="search__form">: This is a form. It's used to collect user input.
+
+
+
+<input type="search" placeholder="what are you looking for?" class="search__input">: This is a search input field. The placeholder attribute provides a hint to the user about what they're supposed to type in the field.
+
+
+
+<div class="login grid" id="login-content">: This is a container for the login functionality.
+
+
+
+<h3 class="login__title">Log In</h3>: This is a heading. It's probably the title of the login form.
+
+
+
+<label for="login-email" class="login__label">Email</label>: This is a label for an input field. The for attribute associates the label with a specific input field.
+
+
+
+<input type="email" placeholder="write your email" id="login-email" class="login__input">: This is an email input field.
+
+
+
+<footer class="footer">: This is the footer of the webpage. It usually contains information like contact info, social media links, etc.
+
+
+
+<script src="assets/js/scrollreveal.min.js"></script>: This is a script tag. It links to a JavaScript file that adds functionality to the webpage.-->
