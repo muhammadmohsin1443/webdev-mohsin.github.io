@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+   <html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!--=============== FAVICON ===============-->
+      <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+
+      <!--=============== REMIXICONS ===============-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css">
+
+      <!--=============== SWIPER CSS ===============-->
+      <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+      <!--=============== CSS ===============-->
+      <link rel="stylesheet" href="assets/css/styles.css">
+
+      <title>Responsive book website - Bedimcode</title>
+   </head>
+   <body>
+      <!--==================== HEADER ====================-->
+      <header class="header" id="header">
+         <nav class='nav container'>
+            <a herf="#" class="nav__logo">
+               <i class="ri-book-open-fill"></i>يا طالب العلم<br>
+               o seaker of knowladge
+            </a>
+
+            <div class="nav__menu">
+               <ul class="nav__list">
+                  <li class="nav__item">
+                     <a href="#home" class="nav__link active-link">
+                        <i class="ri-home-line"></i>
+
+                        <span>Home</span>
+                     </a>
+
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="Featured.html" class="nav__link">
+                        <i class="ri-book-3-line"></i>
+                        <span>Featured</span>
+                     </a>
+
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="Discount.html" class="nav__link">
+                        <i class="ri-price-tag-3-line"></i>
+                        <span>Discount</span>
+                     </a>
+
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="New Books.html" class="nav__link">
+                        <i class="ri-bookmark-line"></i>
+                        <span>New Books</span>
+                     </a>
+
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="testimonial.html" class="nav__link">
+                        <i class="ri-message-3-line"></i>
+                        <span>testimonial</span>
+                     </a>
+
+                  </li>
+
+
+               </ul>
+            </div>
+
+            <div class="nav__actions">
+               <!--search button-->
+               <i class="ri-search-line search-button" id="search-button"></i>
+            
+               <!--login button-->
+               <i class="ri-user-line login-button" id="login-button"></i>
+            
+               <!--theme button-->
+               <button class="theme-btn" id="theme-button">
+                  <i class="ri-moon-line"></i>
+               </button>
+            </div>
+ 
+         </nav>
+         
+      </header>
+
+      <!--==================== SEARCH ====================-->
+      <div class="search" id="search-content">
+         <form action="" class="search__form">
+            <i class="ri-search-line search__icon"></i>
+            <input type="search" placeholder="what are you looking for?" class="search__input">
+
+         </form>
+
+         <i class="ri-close-line search__close" id="search-close"></i>
+      </div>
+
+      <!--==================== LOGIN ====================-->
+      <div class="login grid" id="login-content">
+         <form action="" class="loging__form grid">
+            <h3 class="login__title">Log In</h3>
+
+            <div class="login__group grid">
+               <div>
+                  <label for="login-email" class="login__label">Email</label>
+                  <input type="email" placeholder="write your email" id="login-email" class="login__input">
+               </div>
+               <div>
+                  <label for="login__pass" class="login__label">Password</label>
+                  <input type="password" placeholder="Enter your password" id="" class="login__pass">
+               </div>
+            </div>
+
+            <div>
+               <span class="login__signup">
+                  you do not have and account? <a href="#">Sign up</a>
+               </span>
+
+               <a href="#" class="login__forgot"> 
+                  you frogot your password
+               </a>
+
+               <button type="submit" class="login__button button">Log In</button>
+            </div>
+         </form>
+         <i class="ri-close-line login__close" id="login-close"></i>
+      </div>
+
+      <!--==================== MAIN ====================-->
+      <main class="main">
+         <!--==================== HOME ====================-->
+         <section class="home section" id="home">
+            <div class="home__container container grid">
+               <div class="home__data">
+                  <h1 class="home__title">
+                     Browse & <br>
+                     Select Books
+                  </h1>
+                  <p class="home__description">
+                     Find the best books from your favorite 
+                     writers, explore hundreds of books with all 
+                     possible categories, take advantage of the 
+                     50% discount and much more.
+                  </p>
+
+                  <a href="#" class="button">Explore Now</a>
+               </div>
+
+               <div class="home__images">
+                  <div class="home__swiper swiper">
+                     <div class="swiper-wrapper">
+                        <article class="home__article swiper-slide">
+                           <img src="home-book-1.png" alt="image" class="home__img">
+                        </article>
+
+                        <article class="home__article swiper-slide">
+                           <img src="home-book-2.png" alt="image" class="home__img">
+                        </article>
+
+                        <article class="home__article swiper-slide">
+                           <img src="home-book-3.png" alt="image" class="home__img">
+                        </article>
+
+                        <article class="home__article swiper-slide">
+                           <img src="home-book-4.png" alt="image" class="home__img">
+                        </article>
+
+                        <article class="home__article swiper-slide">
+                           <img src="home-book-2.png" alt="image" class="home__img">
+                        </article>
+
+                        <article class="home__article swiper-slide">
+                           <img src="home-book-4.png" alt="image" class="home__img">
+                        </article>
+                     </div>
+
+                  </div>
+               </div>
+            </div>
+            
+         </section>
+
+         <!--==================== SERVICES ====================-->
+         <section class="services section">
+            <div class="sercices__container container grid">
+
+               <article class="services__card">
+                  <i class="ri-truck-line"></i>
+                  <h3 class="services__title">Free Shipping</h3>
+                  <p class="services__description">Order More Than AED 100</p>
+               </article>
+
+               <article class="services__card">
+                  <i class="ri-lock-2-line"></i>
+                  <h3 class="services__title">Secure Payment</h3>
+                  <p class="services__description">100% Secure Payment</p>
+
+               </article>
+
+               <article class="services__card">
+                  <i class="ri-customer-service-2-line"></i>
+                  <h3 class="services__title">24/7 Support</h3>
+                  <p class="services__description">call us anytime</p>
+
+               </article>
+            </div>
+         </section>
+         <!--==================== JOIN ====================-->
+         <section class="join section">
+            <div class="join__container">
+               <img src="join-bg.jpg" alt="image" class="join__bg">
+
+               <div class="join__data container grid">
+                  <h2 class="join__title section__title">
+                     Subscribe to Recieve <br>
+                     The Latest Updates
+                  </h2>
+
+                  <form action="" class="join__form">
+                     <input type="email" placeholder="Enter email" class="join__input">
+                     <button type="submit" class="join__button button">Subscribe</button>
+                  </form>
+               </div>
+            </div>
+         </section>
+      <!--==================== FOOTER ====================-->
+      <footer class="footer">
+         <div class="footer__container container grid">
+            <div>
+               <a href="#" class="footer__logo">
+                  <i class="ri-book-open-fill"></i>يا طالب العلم<br>
+                  o seaker of knowladge
+               </a>
+               <p class="footer__description" >
+                  Find and explore the best <br>
+                  eBooks from all your <br>
+                  favorite writers.
+               </p>
+            </div>
+            <div class="footer__data grid">
+               <div>
+                  <h3 class="footer__title">About</h3>
+                  <ul class="footer__links">
+
+                     <li><a href="#" class="footer__link">Awards</a>
+                     </li>
+
+                     <li><a href="#" class="footer__link">FAQs</a>
+                     </li>
+
+                     <li><a href="#" class="footer__link">Privicy Policy</a>
+                     </li>
+
+                     <li><a href="#" class="footer__link">Terms of Service</a>
+                     </li>
+
+                  </ul>
+               </div>
+
+               <div>
+                  <h3 class="footer__title">Company</h3>
+                  <ul class="footer__links">
+                     
+                     <li><a href="#" class="footer__link">Blogs</a>
+                     </li>
+
+                     <li><a href="#" class="footer__link">Community</a>
+                     </li>
+
+                     <li><a href="#" class="footer__link">Our Team</a>
+                     </li>
+
+                     <li><a href="#" class="footer__link">Help Center</a>
+                     </li>
+
+                  </ul>
+               </div>
+
+               <div>
+                  <h3 class="footer__title">Contact</h3>
+                  <ul class="footer__links">
+                     
+                     <li><address class="footer__info">
+                        Muhammad Mohsin<br>
+                               L4 CC
+                     </address>
+                     </li>
+                     
+                     <li><address class="footer__info">
+                        o-seaker-of0knowladge@email.com <br>
+                               0581790593
+                     </address>
+                     </li>
+
+                  </ul>
+               </div>
+
+               <div>
+                  <h3 class="footer__title">Social</h3>
+                  <div class="footer__social">
+                     <a href=" https://www.facebook.com/" target="_blank" class="footer__social-link">
+                        <i class="ri-facebook-circle-line"></i>
+                     </a>
+
+                     <a href=" https://www.instagram.com/" target="_blank" class="footer__social-link">
+                        <i class="ri-instagram-line"></i>
+                     </a>
+
+                     <a href=" https://twitter.com/" target="_blank" class="footer__social-link">
+                        <i class="ri-twitter-x-line"></i>
+                     </a>
+                  </div>
+               </div>
+
+               
+            </div>
+         </div>
+         <span class="footer__copy">
+            &#169; All Rights Reserved <br>
+            يا طالب العلم<br>
+                  o seaker of knowladge
+         </span>
+      </footer>
+
+      <!--========== SCROLL UP ==========-->
+      <a herf="#" class="scrollup" id="scroll-up">
+         <i class="ri-arrow-up-line"></i>
+      </a>
+
+      <!--=============== SCROLLREVEAL ===============-->
+      <script src="assets/js/scrollreveal.min.js"></script>
+
+      <!--=============== SWIPER JS ===============-->
+      <script src="assets/js/swiper-bundle.min.js"></script>
+
+      <!--=============== MAIN JS ===============-->
+      <script src="assets/js/main.js"></script>
+   </body>
+</html>
+
+
+<!--<!DOCTYPE html>: This line is just telling the browser that we're using HTML5.
+
+
+
+<html lang="en">: Here we're starting the HTML document and specifying that the language is English.
+
+
+
+<head>: This is the head of the document. It's where we put stuff that's not content, like meta tags and links to CSS files.
+
+
+
+<meta charset="UTF-8">: This line is telling the browser to use UTF-8 character encoding, which includes pretty much every character from every human language. Neat, huh?
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">: This line is for responsive design. It's telling the browser to set the width of the page to follow the screen-width of the device (which will vary device to device).
+
+
+
+<link rel="shortcut icon" href="favicon.png" type="image/x-icon">: This line is linking to the favicon, which is the little icon you see in the tab of your browser.
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css">: This line is linking to an external CSS file, which is where all the styles for the page are kept.
+
+
+
+<title>Responsive book website - Bedimcode</title>: This is the title of the webpage, which you'll see in the browser tab.
+
+
+
+<body>: This is where all the content of the webpage goes.
+
+
+
+<header class="header" id="header">: This is the header of the webpage. It's got a class and an id, which we can use to style it in CSS or target it with JavaScript.
+
+
+
+<nav class='nav container'>: This is the navigation bar, where we put links to other parts of the site.
+
+
+
+<a herf="#" class="nav__logo">: This is a link. Right now it doesn't go anywhere (href="#"), but you could put a URL in there to make it go to another webpage.
+
+
+
+<i class="ri-book-open-fill"></i>يا طالب العلم<br> o seaker of knowladge </a>: This is an icon from the Remix Icon set, followed by some text.
+
+
+
+<div class="nav__menu">: This is a div, which is just a generic container for other elements. We're using it here to group together some elements in the navigation bar.
+
+
+
+<ul class="nav__list">: This is an unordered list, which we're using to hold the links in the navigation bar.
+
+
+
+<li class="nav__item">: This is a list item, which is a single item in the list. Each one of these holds a link.
+
+
+
+<a href="#home" class="nav__link active-link">: This is another link. This one goes to the part of the page with the id "home".
+
+
+
+<i class="ri-home-line"></i> <span>Home</span> </a>: This is another icon, followed by some text in a span.
+
+
+
+<div class="nav__actions">: This is another div. This one is holding some interactive elements, like buttons.
+
+
+
+<i class="ri-search-line search-button" id="search-button"></i>: This is an icon that we're using as a search button.
+
+
+
+<button class="theme-btn" id="theme-button"> <i class="ri-moon-line"></i> </button>: This is a button that probably switches the theme of the page.
+
+
+
+<div class="search" id="search-content">: This is a div that probably contains the search bar.
+
+
+
+<form action="" class="search__form">: This is a form, which is used to collect input from the user.
+
+
+
+<input type="search" placeholder="what are you looking for?" class="search__input">: This is an input field where the user can type their search.
+
+
+
+<i class="ri-close-line search__close" id="search-close"></i>: This is an icon that's probably used to close the search bar.
+
+
+
+<div class="login grid" id="login-content">: This is a div that probably contains the login form.
+
+
+
+<form action="" class="loging__form grid">: This is another form. This one is probably for logging in.
+
+
+
+<input type="email" placeholder="write your email" id="login-email" class="login__input">: This is an input field where the user can type their email.
+
+
+
+<input type="password" placeholder="Enter your password" id="" class="login__pass">: This is an input field where the user can type their password.
+
+
+
+<button type="submit" class="login__button button">Log In</button>: This is a button that submits the form.
+
+
+
+<main class="main">: This is the main content of the webpage.
+
+
+
+<section class="home section" id="home">: This is a section of the webpage. It's got a class and an id, which we can use to style it in CSS or target it with JavaScript.
+
+
+
+<div class="home__container container grid">: This is a div that's being used as a container for other elements.
+
+
+
+<h1 class="home__title"> Browse & <br> Select Books </h1>: This is a heading. It's the largest heading, so it's probably the title of the page or section.
+
+
+
+<p class="home__description"> Find the best books from your favorite writers, explore hundreds of books with all possible categories, take advantage of the 50% discount and much more. </p>: This is a paragraph of text.
+
+
+
+<a href="#" class="button">Explore Now</a>: This is a link that's styled to look like a button.
+
+
+
+<div class="home__images">: This is a div that probably contains some images.
+
+
+
+<div class="home__swiper swiper">: This is a div that's probably used for a carousel or slider of images.
+
+
+
+<article class="home__article swiper-slide">: This is an article, which is a section of content that could stand alone, like a blog post or a news story.
+
+
+
+<img src="home-book-1.png" alt="image" class="home__img">: This is an image. The src attribute is the URL of the image, and the alt attribute is a description of the image for people who can't see it.
+
+
+
+<section class="services section">: This is another section of the webpage.
+
+
+
+<article class="services__card">: This is another article. This one is probably a card, which is a common design pattern for displaying information.
+
+
+
+<i class="ri-truck-line"></i> <h3 class="services__title">Free Shipping</h3> <p class="services__description">Order More Than AED 100</p>: This is an icon, a heading, and a paragraph of text. They're probably all part of the same card.
+
+
+
+<footer class="footer">: This is the footer of the webpage. It usually contains information like contact info and links to legal stuff.
+
+
+
+<a herf="#" class="scrollup" id="scroll-up"> <i class="ri-arrow-up-line"></i> </a>: This is a link that probably scrolls the page back up to the top.
+
+
+
+<script src="assets/js/scrollreveal.min.js"></script>: This is a script tag, which is used to include JavaScript in the page. This one is linking to an external JavaScript file.
+
+
+
+<script src="assets/js/main.js"></script>: This is another script tag. This one is probably the main JavaScript file for the page.-->
